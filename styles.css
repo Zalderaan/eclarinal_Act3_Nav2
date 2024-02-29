@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-container {
+    /*background-color: aquamarine;*/
+    width: max-content
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: inherit;    
+}
+
+.nav-list a {
+    display: block;
+
+    background-color: rgb(49, 48, 49);
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.nav-list a:hover {
+    background-color: rgb(0, 221, 255);
+}
+
+.nav-list li {
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    color: white;
+}
+
+.dropdown-content a{
+    display: inline-block;
+
+    background-color: rgb(49, 48, 49);
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+/* dropdown contents */
+.prod-dropdown:hover .prod-dropdown-content {
+    display: block;
+    /*background-color: aqua;*/
+}
+
+.prod-1-dropdown:hover .prod-1-dropdown-content {
+    display: block;
+}
+
+.prod-2-dropdown:hover .prod-2-dropdown-content {
+    display: block;
+}
+
+
+/* dropdowns positioning */
+.prod-dropdown-content {
+    position: absolute;
+    top: 50px;
+    left: 7.5rem;
+}
+
+.prod-1-dropdown-content {
+    position: absolute;
+    top: 0px;
+    left: 7.4rem;
+}
+
+.prod-2-dropdown-content {
+    position: absolute;
+    top: 33px;
+    left: 7.4rem;
+}
+
+
+
